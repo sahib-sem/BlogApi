@@ -1,0 +1,26 @@
+Today, I learned about Clean Architecture, a software design principle that offers several benefits for building robust and 
+maintainable applications. Here's a summary of the key points I grasped:
+
+## Loose Coupling and SOLID Principles: 
+Clean Architecture promotes loose coupling between modules, making it easier to manage changes and updates. 
+It also facilitates adherence to SOLID principles, enhancing code quality and maintainability.
+
+##Domain-Centric Design:
+lean Architecture is aligned with Domain-Driven Design (DDD),
+emphasizing the importance of the core domain logic.This ensures that the heart of the application, the domain model, remains
+isolated and focused.
+
+Core Project: 
+At the center of Clean Architecture is the Core project, which holds the domain model, abstractions, and interfaces that define 
+the essential business logic.
+
+Project Structure:
+
+Domain Project: This project houses the entities of the web application, which are often representations of the database tables.
+Application Project: Contains the repository interfaces, providing guidelines on how to define data access and manipulation.
+Web Project: Interacts with the application, serving as the entry point for user interactions.
+Infrastructure: Interacts with external services and implements the necessary technical details.
+Test Project: Located outside the core, it's responsible for testing the application and ensuring its correctness.
+Overall, Clean Architecture promotes a clear separation of concerns, making it easier to manage complex projects, maintain code, and 
+adapt to changing requirements. This knowledge will be valuable in designing software systems that are both flexible and focused on the
+ core domain.
